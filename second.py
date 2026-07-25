@@ -1,0 +1,6 @@
+age=input ('please enter your age: ')
+name =input ("please enter your name: ")
+country=input ("please enter your country name: ")
+print("your name is: ",name)
+print("you live at: ",country) 
+print("you are: ",age,"years old")
