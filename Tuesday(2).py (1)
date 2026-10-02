@@ -1,0 +1,15 @@
+
+def aver(*arg):
+    lst=[]
+    
+    for item in arg:
+        if type(item) in (int,float):
+            lst.append(item)
+   
+    if not lst:
+        return False  
+    return sum(lst)/len(lst)             
+          
+        
+    
+print(aver(1,2,3,10))
